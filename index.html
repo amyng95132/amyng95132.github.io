@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mystyle.css">
+<script type="text/javascript" src="my.js"></script>
+</head>
 <body>
 
-<p id="demo"></p>
-<a href="bio.html">my biography</a>
-<script>
-var d = new Date();
-const monthNames = ["January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
-];
+<div class="dropdown">
+	<button class="dropbtn"><a href="index.html">Home</a></button>
+</div>	
+<div class="dropdown">
+  <button class="dropbtn">Literature</button>
+  <div class="dropdown-content">
+    <a href="romaticLit.html">Romantic</a>
+    <a href="victoriaLit.html">Victoria</a>
+  </div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Music</button>
+  <div class="dropdown-content">
+    <a href="classicalMusic.html">Classical</a>
+    <a href="romanticMusic.html">Romantic</a>
+  </div>
+</div>
 
-var datestring = d.getDate()  + "-" + monthNames[d.getMonth()] + "-" + d.getFullYear();
-document.getElementById("demo").innerHTML = datestring;
 
-</script>
+<div class="mytxt">
+</div>
 
+
+<div>
+ <a href="romanticMusic.html">Romantic</a>
+	<p id="demo"></p>
+	This is my home page
+</div>
 </body>
 </html>
