@@ -1,3 +1,10 @@
+body {
+    min-height: 100vh;
+    max-width: 400px;
+    background-color: papayawhip; 
+    margin: 0 auto;
+}
+
 .dropbtn {
   background-color: #2544A0 ;
   color: white;
