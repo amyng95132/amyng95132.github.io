@@ -14,3 +14,17 @@ body {
 .mytxt2 {
 	font: 15px Arial, sans-serif;
 }
+
+.mytxt3{
+	font: 15px Arial, sans-serif;
+	color: white;
+	background-image: url(images/highland.jpg);
+	padding: 10px;
+}
+
+.mytxt4{
+	font: 15px Arial, sans-serif;
+	color: white;
+	background-image: url(images/Gaskell.jpg);
+	padding: 10px;
+}
