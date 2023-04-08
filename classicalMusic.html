@@ -1,27 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="mystyle.css">
-    <script type="text/javascript" src="my.js"></script>
-    <script src="components/header.js" type="text/javascript" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="mystyle.css">
+  <script type="text/javascript" src="my.js"></script>
+  <script src="components/header.js" type="text/javascript" defer></script>
 </head>
 <body>
-   <header-component></header-component>
-    <main>
-      <!-- Your page's content -->
-    </main>
-
+<header-component></header-component>
 <div class="mytxt">
 </div>
 
 <div class="mytxt2">
-<p id="demo"></p>
-  Bonn, a forgotten town, near the Rhine River. In the middle of a quiet lane, the humble two stories building is Beethoven's house. I stepped in and heard the cracking of the wooden floor. </br></br>
+
+	<p id="demo"></p>
+	Bonn, a forgotten town, near the Rhine River. In the middle of a quiet lane, the humble two stories building is Beethoven's house. I stepped in and heard the cracking of the wooden floor. </br></br>
 
   Shouldn't Beethoven's house deserve the same popularity as Mozart's house in Salzburg? </br></br>
 
-  Beethoven, a passionate composer, was an early bird who loved coffee. Oh, who doesn't like a good cup of coffee? The aroma of coffee brighten my morning.
+  Beethoven, a passionate composer, was an early bird who loved coffee. Oh, who doesn't like a good cup of coffee? The sweet scent of coffee brighten my morning. Are you ready to take the challenge? Here is music history quiz.
+
+<p>Where did Beethoven born?</p>
+
+<form>
+  <input type="radio" name="q1" value="England">England<br>
+  <input type="radio" name="q1" value="Germany">Germany<br>
+  <input type="radio" name="q1" value="Canada">Canada<br>
+</form>
+<div id="result1"></div>
+
+<p>Who composed The Mid Summer Night's Dream?</p>
+
+<form>
+  <input type="radio" name="q2" value="Chopin">Chopin<br>
+  <input type="radio" name="q2" value="Mendelsohn">Mendelsohn<br>
+  <input type="radio" name="q2" value="Bach">Bach<br>
+</form>
+<div id="result2"></div>
+
+<p>Which of the following is Bach motif?</p>
+
+<form>
+  <input type="radio" name="q3" value="B flat, A, C sharp, B flat">B flat, A, C sharp, B flat<br>
+  <input type="radio" name="q3" value="B flat , A, C, B natural">B flat , A, C, B natural<br>
+  <input type="radio" name="q3" value ="B, A flat, C, B">B, A flat, C, B<br>
+</form>
+<div id="result3"></div>
+<br/><br/>
+
+<p id="yourScore"></p>
+
+<button type="button" onclick="myScore()">
+  Submit
+</button>
+<br/><br/><br/><br/>
 </div>
+
+
 </body>
 </html>
