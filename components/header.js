@@ -66,7 +66,7 @@ a {
 <button class="dropbtn">Music</button>
   <div class="dropdown-content">
     <a href="classicalMusic.html">Classical</a>
-    <a href="romanticMusic.html">Romantic</a>
+    <a href="romanticMusic.html">My Music</a>
   </div>
 </div>
     `;
