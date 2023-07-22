@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="mystyle.css">
-
-    <script type="text/javascript" src="my.js"></script>
-    <script src="components/header2.js" type="text/javascript" defer></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="mystyle.css">  
+<link rel="stylesheet" href="headerStyle.css">
+<script type="text/javascript" src="my.js"></script>
+<script src="components/header2.js" type="text/javascript" defer></script>
+	<style type="text/css">
+	.mytxt4{
+	   font: 15px Arial, sans-serif;
+	   color: black;
+	   padding: 10px;
+    }
+	</style>
 </head>
 <body>
-
 <header-component></header-component>
-
- 
-    
-<div style="padding:120px;">
-    
+<div class="mytxt">
+</div>
+<br/>
+<div class="mytxt2">
 <p id="demo"></p>
+<div class="row">
+<div class="column left">
+	
 Elizabeth Browning's Italian Sonnet.</br></br>
 How do I love thee? Let me count the ways.</br>
 I love thee to the depth and breadth and height</br>
@@ -32,19 +41,17 @@ With my lost saints. I love thee with the breath,</br>
 Smiles, tears, of all my life; and, if God choose,</br>
 I shall but love thee better after death.
 
+<br/><br/><br/><br/><br/>
 </div>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-
+  <div class="column right">
+      <h3>Authors</h3>
+      <ul>
+        <li><a href="browning.html">Elizabeth Browning</a></li>
+        <li>Virginia Woolf</li>
+        <li>Bronte sisters</li>
+       </ul>
+  </div>
+</div>
 
 </body>
 </html>
