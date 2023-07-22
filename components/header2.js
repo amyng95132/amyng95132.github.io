@@ -1,0 +1,37 @@
+class Header extends HTMLElement{
+	constructor(){
+		super();
+	}
+    
+    connectedCallback() {
+    this.innerHTML = `
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">Literature
+    
+    </button>
+    <div class="dropdown-content">
+      <a href="burns.html">Romantic</a>
+      <a href="gaskell.html">Victorian</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Music
+    </button>
+    <div class="dropdown-content">
+      <a href="classicalMusic.html">Classical</a>
+      <a href="myMusic.html">My Music</a>
+    </div>
+  </div> 
+   
+<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+    `;
+    }
+}
+
+customElements.define('header-component', Header);

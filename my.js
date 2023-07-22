@@ -10,6 +10,15 @@ function toDayIs(){
 	document.getElementById("demo").innerHTML = datestring;
 }
 
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
 function myScore(){
 		var ele = document.getElementsByName('q1');
 		var ele2 = document.getElementsByName('q2');
